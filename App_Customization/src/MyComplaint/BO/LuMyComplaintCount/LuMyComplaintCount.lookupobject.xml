@@ -1,0 +1,7 @@
+<LookupObject name="LuMyComplaintCount">
+  <DataSource name="DsLuMyComplaintCount" />
+  <SimpleProperties>
+    <SimpleProperty name="complaintCount" type="DomInteger" storable="true" dataSourceProperty="complaintCount" />
+  </SimpleProperties>
+  <Methods></Methods>
+</LookupObject>

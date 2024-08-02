@@ -1,0 +1,10 @@
+<ListItem name="LiMyComplaints">
+  <SimpleProperties>
+    <!-- You can use <workspaceRoot>/contractSnippets/YourModule Section/BO/LO_ListObject/snippets/ListItemSimplePropertiesSimplePropertySnipp.xml as template for your case -->
+    <SimpleProperty id="true" name="pKey" type="DomPKey" dataSourceProperty="pKey" />
+    <SimpleProperty name="name" type="DomText" dataSourceProperty="name" />
+    <SimpleProperty name="subject" type="DomText" dataSourceProperty="subject" />
+    <SimpleProperty name="message" type="DomLongDescription" dataSourceProperty="message" />
+    <SimpleProperty name="notes" type="DomLongDescription" dataSourceProperty="notes" />    
+  </SimpleProperties>
+</ListItem>

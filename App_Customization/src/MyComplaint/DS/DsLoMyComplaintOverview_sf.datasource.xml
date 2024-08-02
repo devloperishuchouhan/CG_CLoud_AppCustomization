@@ -1,0 +1,19 @@
+<DataSource name="DsLoMyComplaintOverview" objectClass="LoMyComplaintOverview" backendSystem="sf" schemaVersion="2.0"> <!--businessObjectClass="LoMyComplaintOverview"-->
+  <Database platform="SQLite">
+    <Load><![CDATA[
+      var sqlStmt = "SELECT Complaint__c.Id AS pKey, ";  
+    ]]></Load>
+    <Update><![CDATA[
+      // Intended to be empty - Overview list => read only!
+      return undefined;
+    ]]></Update>
+    <Insert><![CDATA[
+      // Intended to be empty - Overview list => read only!
+      return undefined;     
+    ]]></Insert>
+    <Delete><![CDATA[
+      // Intended to be empty - Overview list => read only!
+      return undefined;
+    ]]></Delete>
+  </Database>
+</DataSource>

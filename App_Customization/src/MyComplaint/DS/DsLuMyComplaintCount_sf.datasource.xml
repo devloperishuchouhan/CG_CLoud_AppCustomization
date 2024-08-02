@@ -1,0 +1,13 @@
+<DataSource name="DsLuMyComplaintCount" backendSystem="sf" businessObjectClass="LuMyComplaintCount" external="false" readOnly="true" editableEntity="Complaint__c" schemaVersion="2.0">
+  <!-- For more information about the supported properties and nodes see corresponding DataSource.md file under ~Workspace/contractSnippets/YourModuel Section/DS/DS_DataSource -->
+  <Attributes>
+    <Attribute name="pKey" table="Complaint__c" column="Id" />
+    <DerivedAttribute name="complaintCount" value="Count(*)" />
+  </Attributes>
+  <Entities>
+    <Entity name="Complaint__c" alias="" idAttribute="Id" />
+  </Entities>
+  <QueryCondition />
+  <OrderCriteria />
+  <Parameters />
+</DataSource>

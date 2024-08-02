@@ -1,0 +1,12 @@
+<ListObject name="LoMyComplaints" generateLoadMethod="true" schemaVersion="1.1">
+  <DataSource name="DsLoMyComplaints"/>
+  <Item objectClass="LiMyComplaints"/>
+  <Methods>
+    <Method name="beforeSaveAsync"/>
+    <Method name="afterSaveAsync"/>
+    <Method name="afterLoadAsync"/>
+    <Method name="beforeLoadAsync"/>
+    <Method name="afterDoValidateAsync"/>
+    <Method name="beforeDoValidateAsync"/>
+  <Method name="myGetInfoForComplaintCard"/></Methods>
+</ListObject>
